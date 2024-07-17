@@ -1,0 +1,55 @@
+/* Style for the entire body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #d1d5da;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+/* Style for the header */
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style for the buttons container */
+div {
+  display: flex;
+  gap: 10px;
+}
+
+/* General button styles */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Specific styles for the login button */
+#loginBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+#loginBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Specific styles for the signup button */
+#signUpBtn {
+  background-color: #28a745;
+  color: white;
+}
+
+#signUpBtn:hover {
+  background-color: #1e7e34;
+}

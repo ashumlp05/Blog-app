@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8d9d9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #967088;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 5px;
+}
+
+button:hover {
+  background-color: #272c27;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px 0;
+  font-size: 16px;
+  width: 300px;
+}
+
+input[type="text"]:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* User Credentials Styling */
+.userCred {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#userId, #followersCount {
+  font-size: 24px;
+  color: blueviolet;
+  background-color: bisque;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+/* Post Container Styling */
+#post-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.postBlocks {
+  background-color: aqua;
+  border: 2px solid black;
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+#msg {
+  color: red;
+  font-size: 18px;
+  margin-top: 20px;
+}
